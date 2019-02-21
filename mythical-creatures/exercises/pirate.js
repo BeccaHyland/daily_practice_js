@@ -1,5 +1,5 @@
 class Pirate {
-  constructor (name, job = "Scallywag") {
+  constructor(name, job = "Scallywag") {
     this.name = name;
     this.job = job;
     this.cursed = false;
@@ -7,14 +7,14 @@ class Pirate {
     this.booty = 0;
   }
 
-  commitHeinousAct () {
+  commitHeinousAct() {
     this.curseCounter += 1;
     if (this.curseCounter > 2) {
       this.cursed = true;
     }
   }
 
-  robShip () {
+  robShip() {
     this.booty += 100;
     return 'YAARRR!'
   }
