@@ -1,4 +1,5 @@
 # JavaScript Foundations
+## below: original directions from forked repo
 
 Each exercise emphasizes the fundamentals of object oriented programming in JavaScript.
 
