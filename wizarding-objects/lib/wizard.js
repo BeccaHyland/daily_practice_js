@@ -1,6 +1,3 @@
-const Pet = require('../lib/pet')
-const Wand = require('../lib/wand')
-
 class Wizard {
   constructor(name) {
     this.name = name;
@@ -37,14 +34,5 @@ class Wizard {
     return this.wand.cast(spell);
   }
 };
-
-// const wizard = new Wizard('Hermione');
-//
-// const pet = new Pet('Crookshanks', 'cat');
-// const pet2 = new Pet('Hedwig', 'owl');
-//
-// wizard.givePet(pet);
-// wizard.givePet(pet2);
-// wizard.petList();
 
 module.exports = Wizard;
